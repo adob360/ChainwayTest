@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94E33FCDA2DECB9A657EAC51 /* Pods_ChainwayTest_ChainwayTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06218C05898E6145BA1B3ED4 /* Pods_ChainwayTest_ChainwayTestUITests.framework */; };
+		F0655DA706960A07E0EF3FD7 /* Pods_ChainwayTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0D5D6DCB8BAC9AD66CA275 /* Pods_ChainwayTestTests.framework */; };
 		FA88D80A2B2F543900974725 /* ChainwayTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88D8092B2F543900974725 /* ChainwayTestApp.swift */; };
 		FA88D80C2B2F543900974725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88D80B2B2F543900974725 /* ContentView.swift */; };
 		FA88D80E2B2F543B00974725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA88D80D2B2F543B00974725 /* Assets.xcassets */; };
@@ -14,6 +16,13 @@
 		FA88D81B2B2F543C00974725 /* ChainwayTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88D81A2B2F543C00974725 /* ChainwayTestTests.swift */; };
 		FA88D8252B2F543C00974725 /* ChainwayTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88D8242B2F543C00974725 /* ChainwayTestUITests.swift */; };
 		FA88D8272B2F543C00974725 /* ChainwayTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88D8262B2F543C00974725 /* ChainwayTestUITestsLaunchTests.swift */; };
+		FA88D83C2B2F5B8E00974725 /* DeviceListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88D83B2B2F5B8E00974725 /* DeviceListManager.swift */; };
+		FA88D8482B2F5BB700974725 /* BluetoothUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FA88D83F2B2F5BB700974725 /* BluetoothUtil.m */; };
+		FA88D8492B2F5BB700974725 /* AppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA88D8432B2F5BB700974725 /* AppHelper.m */; };
+		FA88D84A2B2F5BB700974725 /* BLEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA88D8442B2F5BB700974725 /* BLEModel.m */; };
+		FA88D84B2B2F5BB700974725 /* RFIDBlutoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA88D8462B2F5BB700974725 /* RFIDBlutoothManager.m */; };
+		FACEB9AB2B30A69E007FEA6F /* RFIDScannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB9AA2B30A69E007FEA6F /* RFIDScannerManager.swift */; };
+		FACEB9AD2B30AC93007FEA6F /* FatBluetoothDelgateMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEB9AC2B30AC93007FEA6F /* FatBluetoothDelgateMethods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06218C05898E6145BA1B3ED4 /* Pods_ChainwayTest_ChainwayTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChainwayTest_ChainwayTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD9D48719442B663E9F6C96 /* Pods-ChainwayTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainwayTest.debug.xcconfig"; path = "Target Support Files/Pods-ChainwayTest/Pods-ChainwayTest.debug.xcconfig"; sourceTree = "<group>"; };
+		29D9FF6690EA14EC7E54E37D /* Pods-ChainwayTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainwayTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ChainwayTestTests/Pods-ChainwayTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF3749052E471FE1445C912 /* Pods_ChainwayTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChainwayTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4983B227325E08703A93CB /* Pods-ChainwayTest-ChainwayTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainwayTest-ChainwayTestUITests.release.xcconfig"; path = "Target Support Files/Pods-ChainwayTest-ChainwayTestUITests/Pods-ChainwayTest-ChainwayTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		728DEFC2529A696AA2DC5812 /* Pods-ChainwayTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainwayTestTests.release.xcconfig"; path = "Target Support Files/Pods-ChainwayTestTests/Pods-ChainwayTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF0D5D6DCB8BAC9AD66CA275 /* Pods_ChainwayTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChainwayTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D958A1F1C52618B501CE2A5F /* Pods-ChainwayTest-ChainwayTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainwayTest-ChainwayTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChainwayTest-ChainwayTestUITests/Pods-ChainwayTest-ChainwayTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA88D8062B2F543900974725 /* ChainwayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainwayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA88D8092B2F543900974725 /* ChainwayTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainwayTestApp.swift; sourceTree = "<group>"; };
 		FA88D80B2B2F543900974725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,19 @@
 		FA88D8202B2F543C00974725 /* ChainwayTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainwayTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA88D8242B2F543C00974725 /* ChainwayTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainwayTestUITests.swift; sourceTree = "<group>"; };
 		FA88D8262B2F543C00974725 /* ChainwayTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainwayTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA88D83B2B2F5B8E00974725 /* DeviceListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListManager.swift; sourceTree = "<group>"; };
+		FA88D83D2B2F5BB600974725 /* ChainwayTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChainwayTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA88D83E2B2F5BB700974725 /* RFIDBlutoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFIDBlutoothManager.h; sourceTree = "<group>"; };
+		FA88D83F2B2F5BB700974725 /* BluetoothUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothUtil.m; sourceTree = "<group>"; };
+		FA88D8402B2F5BB700974725 /* BLEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEModel.h; sourceTree = "<group>"; };
+		FA88D8412B2F5BB700974725 /* AppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHelper.h; sourceTree = "<group>"; };
+		FA88D8432B2F5BB700974725 /* AppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppHelper.m; sourceTree = "<group>"; };
+		FA88D8442B2F5BB700974725 /* BLEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEModel.m; sourceTree = "<group>"; };
+		FA88D8452B2F5BB700974725 /* BluetoothUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothUtil.h; sourceTree = "<group>"; };
+		FA88D8462B2F5BB700974725 /* RFIDBlutoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFIDBlutoothManager.m; sourceTree = "<group>"; };
+		FACEB9AA2B30A69E007FEA6F /* RFIDScannerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFIDScannerManager.swift; sourceTree = "<group>"; };
+		FACEB9AC2B30AC93007FEA6F /* FatBluetoothDelgateMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatBluetoothDelgateMethods.swift; sourceTree = "<group>"; };
+		FE65B62B66BAEBE6E1DD8156 /* Pods-ChainwayTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainwayTest.release.xcconfig"; path = "Target Support Files/Pods-ChainwayTest/Pods-ChainwayTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0655DA706960A07E0EF3FD7 /* Pods_ChainwayTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E33FCDA2DECB9A657EAC51 /* Pods_ChainwayTest_ChainwayTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CC640441A5524BE7F8CF49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3749052E471FE1445C912 /* Pods_ChainwayTest.framework */,
+				06218C05898E6145BA1B3ED4 /* Pods_ChainwayTest_ChainwayTestUITests.framework */,
+				BF0D5D6DCB8BAC9AD66CA275 /* Pods_ChainwayTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93FC5B753DED7B9130DE2862 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CD9D48719442B663E9F6C96 /* Pods-ChainwayTest.debug.xcconfig */,
+				FE65B62B66BAEBE6E1DD8156 /* Pods-ChainwayTest.release.xcconfig */,
+				D958A1F1C52618B501CE2A5F /* Pods-ChainwayTest-ChainwayTestUITests.debug.xcconfig */,
+				6F4983B227325E08703A93CB /* Pods-ChainwayTest-ChainwayTestUITests.release.xcconfig */,
+				29D9FF6690EA14EC7E54E37D /* Pods-ChainwayTestTests.debug.xcconfig */,
+				728DEFC2529A696AA2DC5812 /* Pods-ChainwayTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA88D7FD2B2F543900974725 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +133,8 @@
 				FA88D8192B2F543C00974725 /* ChainwayTestTests */,
 				FA88D8232B2F543C00974725 /* ChainwayTestUITests */,
 				FA88D8072B2F543900974725 /* Products */,
+				0CC640441A5524BE7F8CF49D /* Frameworks */,
+				93FC5B753DED7B9130DE2862 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +151,14 @@
 		FA88D8082B2F543900974725 /* ChainwayTest */ = {
 			isa = PBXGroup;
 			children = (
+				FACEB9A92B30A67F007FEA6F /* RFIDManager */,
+				FA88D83A2B2F5B4700974725 /* BLEDevices */,
+				FA88D8382B2F5B3000974725 /* RFID_IOS_SDK */,
 				FA88D8092B2F543900974725 /* ChainwayTestApp.swift */,
 				FA88D80B2B2F543900974725 /* ContentView.swift */,
 				FA88D80D2B2F543B00974725 /* Assets.xcassets */,
 				FA88D80F2B2F543B00974725 /* Preview Content */,
+				FACEB9AC2B30AC93007FEA6F /* FatBluetoothDelgateMethods.swift */,
 			);
 			path = ChainwayTest;
 			sourceTree = "<group>";
@@ -127,6 +188,38 @@
 			path = ChainwayTestUITests;
 			sourceTree = "<group>";
 		};
+		FA88D8382B2F5B3000974725 /* RFID_IOS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				FA88D8412B2F5BB700974725 /* AppHelper.h */,
+				FA88D8432B2F5BB700974725 /* AppHelper.m */,
+				FA88D8402B2F5BB700974725 /* BLEModel.h */,
+				FA88D8442B2F5BB700974725 /* BLEModel.m */,
+				FA88D8452B2F5BB700974725 /* BluetoothUtil.h */,
+				FA88D83F2B2F5BB700974725 /* BluetoothUtil.m */,
+				FA88D83E2B2F5BB700974725 /* RFIDBlutoothManager.h */,
+				FA88D8462B2F5BB700974725 /* RFIDBlutoothManager.m */,
+				FA88D83D2B2F5BB600974725 /* ChainwayTest-Bridging-Header.h */,
+			);
+			path = RFID_IOS_SDK;
+			sourceTree = "<group>";
+		};
+		FA88D83A2B2F5B4700974725 /* BLEDevices */ = {
+			isa = PBXGroup;
+			children = (
+				FA88D83B2B2F5B8E00974725 /* DeviceListManager.swift */,
+			);
+			path = BLEDevices;
+			sourceTree = "<group>";
+		};
+		FACEB9A92B30A67F007FEA6F /* RFIDManager */ = {
+			isa = PBXGroup;
+			children = (
+				FACEB9AA2B30A69E007FEA6F /* RFIDScannerManager.swift */,
+			);
+			path = RFIDManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA88D82A2B2F543C00974725 /* Build configuration list for PBXNativeTarget "ChainwayTest" */;
 			buildPhases = (
+				9EEE23F38B77F258EECD82C4 /* [CP] Check Pods Manifest.lock */,
 				FA88D8022B2F543900974725 /* Sources */,
 				FA88D8032B2F543900974725 /* Frameworks */,
 				FA88D8042B2F543900974725 /* Resources */,
@@ -151,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA88D82D2B2F543C00974725 /* Build configuration list for PBXNativeTarget "ChainwayTestTests" */;
 			buildPhases = (
+				1900D0E6A016B8F36C39EA00 /* [CP] Check Pods Manifest.lock */,
 				FA88D8122B2F543C00974725 /* Sources */,
 				FA88D8132B2F543C00974725 /* Frameworks */,
 				FA88D8142B2F543C00974725 /* Resources */,
@@ -169,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA88D8302B2F543C00974725 /* Build configuration list for PBXNativeTarget "ChainwayTestUITests" */;
 			buildPhases = (
+				81BE13A04B57572050B59388 /* [CP] Check Pods Manifest.lock */,
 				FA88D81C2B2F543C00974725 /* Sources */,
 				FA88D81D2B2F543C00974725 /* Frameworks */,
 				FA88D81E2B2F543C00974725 /* Resources */,
@@ -195,6 +291,7 @@
 				TargetAttributes = {
 					FA88D8052B2F543900974725 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					FA88D8152B2F543C00974725 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -252,13 +349,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1900D0E6A016B8F36C39EA00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChainwayTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81BE13A04B57572050B59388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChainwayTest-ChainwayTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EEE23F38B77F258EECD82C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChainwayTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA88D8022B2F543900974725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA88D8492B2F5BB700974725 /* AppHelper.m in Sources */,
 				FA88D80C2B2F543900974725 /* ContentView.swift in Sources */,
+				FA88D83C2B2F5B8E00974725 /* DeviceListManager.swift in Sources */,
+				FA88D8482B2F5BB700974725 /* BluetoothUtil.m in Sources */,
 				FA88D80A2B2F543900974725 /* ChainwayTestApp.swift in Sources */,
+				FACEB9AD2B30AC93007FEA6F /* FatBluetoothDelgateMethods.swift in Sources */,
+				FACEB9AB2B30A69E007FEA6F /* RFIDScannerManager.swift in Sources */,
+				FA88D84B2B2F5BB700974725 /* RFIDBlutoothManager.m in Sources */,
+				FA88D84A2B2F5BB700974725 /* BLEModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -399,6 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -411,15 +586,20 @@
 		};
 		FA88D82B2B2F543C00974725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD9D48719442B663E9F6C96 /* Pods-ChainwayTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChainwayTest/Preview Content\"";
-				DEVELOPMENT_TEAM = BUZ9C34W79;
+				DEVELOPMENT_TEAM = MMG8WRUELW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth Peripheral is used";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location is used";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -433,6 +613,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.MBT.ChainwayTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChainwayTest/RFID_IOS_SDK/ChainwayTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,15 +622,20 @@
 		};
 		FA88D82C2B2F543C00974725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE65B62B66BAEBE6E1DD8156 /* Pods-ChainwayTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChainwayTest/Preview Content\"";
-				DEVELOPMENT_TEAM = BUZ9C34W79;
+				DEVELOPMENT_TEAM = MMG8WRUELW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth Peripheral is used";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location is used";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,6 +649,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.MBT.ChainwayTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChainwayTest/RFID_IOS_SDK/ChainwayTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +657,7 @@
 		};
 		FA88D82E2B2F543C00974725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D9FF6690EA14EC7E54E37D /* Pods-ChainwayTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +678,7 @@
 		};
 		FA88D82F2B2F543C00974725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728DEFC2529A696AA2DC5812 /* Pods-ChainwayTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +699,7 @@
 		};
 		FA88D8312B2F543C00974725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D958A1F1C52618B501CE2A5F /* Pods-ChainwayTest-ChainwayTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +718,7 @@
 		};
 		FA88D8322B2F543C00974725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4983B227325E08703A93CB /* Pods-ChainwayTest-ChainwayTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

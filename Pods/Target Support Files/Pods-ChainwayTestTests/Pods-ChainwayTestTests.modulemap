@@ -1,0 +1,6 @@
+framework module Pods_ChainwayTestTests {
+  umbrella header "Pods-ChainwayTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
